@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/light_orange">
+
+    <TextView
+        android:id="@+id/logoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="DE-2B Prototype Application"
+        android:textAlignment="center"
+        android:textColor="@color/light_blue"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/logoTV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="Teacher App"
+        android:textAlignment="center"
+        android:textColor="@color/light_blue"
+        android:textSize="30sp" />
+
+
+
+</RelativeLayout>
